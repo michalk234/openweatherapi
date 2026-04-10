@@ -1,0 +1,15 @@
+Summary:
+Build weather dashboard UI v1
+
+Extended description:
+- Rebuilt the dashboard UI to match the approved visual direction
+- Added a proper card-based layout with search bar, details panel, and forecast tiles
+- Added SVG weather illustrations and supporting UI icons
+- Split UI into reusable rendering modules for easier maintenance
+- Added loading and error states for better UX
+- Implemented MVC-ready structure with separate API, model, and UI layers
+- Added forecast mapping from OpenWeather 5-day / 3-hour data
+- Updated devGuide with collaboration and commit delivery rules
+
+This iteration replaces the previous rough starter with a UI-focused version
+that is suitable as the real frontend base for further dashboard development.
