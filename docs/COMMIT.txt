@@ -1,0 +1,7 @@
+Summary:
+Move API key to config
+
+Extended:
+- added config files
+- moved API key out of index
+- updated API layer
