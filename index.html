@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="./src/ui/styles/main.css"/>
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <input id="cityInput" placeholder="Enter city..." />
+      <button id="searchBtn">Search</button>
+    </header>
+
+    <main class="dashboard">
+      <section class="card current-weather" id="currentWeather"></section>
+      <section class="card details" id="details"></section>
+      <section class="card forecast" id="forecast"></section>
+    </main>
+  </div>
+
+  <script type="module" src="./src/ui/app.js"></script>
+</body>
+</html>
